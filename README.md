@@ -2,3 +2,4 @@
 [![Actions Status](https://github.com/Architekton-1/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Architekton-1/frontend-project-44/actions)
 ### Asciinema
 https://asciinema.org/a/YpRzjEu2bUdwCUq6
+https://asciinema.org/a/WMFqoMDi3pGRPoRZ
