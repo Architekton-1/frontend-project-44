@@ -22,13 +22,13 @@ while (count < 3 && !gameOver) {
 
     const answer = readlineSync.question('Your answer: ');
 
-    if (answer !== correctAnswer) {
+    if (answer === correctAnswer) {
+        console.log('Correct!');
+        count += 1;
+    } else {
         console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
         console.log(`Let's try again, ${name}!`);
         gameOver = true;
-    } else {
-        console.log('Correct!');
-        count += 1;
     }
 }
 if (count === 3) {
